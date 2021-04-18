@@ -1,0 +1,57 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "editor.mouseWheelZoom": true,
+    "editor.fontLigatures": false,
+    "editor.fontFamily": "Cascadia Mono",
+
+
+
+
+    ////////////////////////////////////////////////////////////////////////////
+    //         _             
+    //        (_)            
+    //  __   ___ _ __ ___    
+    //  \ \ / / | '_ ` _ \   
+    //   \ V /| | | | | | |_ 
+    //    \_/ |_|_| |_| |_(_) settings for vscodevim.vim extension.
+    //                       
+    ////////////////////////////////////////////////////////////////////////////
+
+    "vim.scroll": 8,
+
+
+
+    // Terminal settings
+
+
+    "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+
+    //Show line at 80 characters (Old C geek)
+    "editor.rulers": [ 80 ],
+
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "java.home": "C:\\Program Files\\AdoptOpenJDK\\jdk-15.0.1.9-hotspot",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "java.refactor.renameFromFileExplorer": "preview",
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "files.eol": "\n",
+    "files.autoSave": "afterDelay",
+    "editor.lineNumbers": "on",
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "window.zoomLevel": -1,
+    "workbench.editor.titleScrollbarSizing": "large",
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+
+
+}

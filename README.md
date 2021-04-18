@@ -1,3 +1,7 @@
-# configs
+# (❁´◡\`❁) "DOTFILES"    (❁´◡\`❁)
 
-* My custom config files for software and games
+## My configurations for various games and applications. 
+
+### Free to use
+
+
