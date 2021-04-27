@@ -1,6 +1,6 @@
 # (❁´◡\`❁) "DOTFILES"    (❁´◡\`❁)
 
-## My configurations for various games and applications. 
+## My configurations for various software. 
 
 ### Free to use
 
