@@ -1,46 +1,27 @@
-"""""""""""""""""""""""""""""""""""""                   
-"""""""""""""""""""""""""""""""""""""                   
-""        _                        ""
-""       (_)                       ""
-"" __   ___ _ __ ___               ""
-"" \ \ / / | '_ ` _ \              ""
-""  \ V /| | | | | | |             ""   
-""   \_/ |_|_| |_| |_| is awesome  ""
-""                                 ""
-"""""""""""""""""""""""""""""""""""""                  
-"""""""""""""""""""""""""""""""""""""
-                                                                            "  80
+"=======================
+"      ***********
+"         vimrc
+"      ***********
+"  github.com/miikkani
+"=======================
                                
-                               
-"~~~~~~~~~~~~~~~~~~~~~~
+
 " Settings for GUI 
-"~~~~~~~~~~~~~~~~~~~~~~
 if has("gui_running")
-
-
 " set theme
 colorscheme slate
-
 " font
-set guifont=Cascadia_Code:h11
-
-
+set guifont=JetBrains_Mono:W300:h11
 endif
+" 
 
-"~~~~~~~~~~~~~~~~~~~~~~
-" General settings
-"~~~~~~~~~~~~~~~~~~~~~~
 
-" todo
 filetype indent plugin on
 
-" todo
 syntax on
 
-" todo
+highlight Comment gui=italic
 set hlsearch
-
-" todo
 set autoindent
 
 "show vertical line
@@ -49,8 +30,8 @@ set colorcolumn:80
 "show information
 set ruler
 
-"line numbers
-set number
+"show relative line numbers
+set rnu
 
 "text encoding
 set encoding=utf-8
