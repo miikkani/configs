@@ -15,28 +15,25 @@ set guifont=JetBrains_Mono:W300:h11
 endif
 " 
 
+autocmd vimenter * ++nested colorscheme gruvbox
+set background=dark 	"dark mode
 
 filetype indent plugin on
-
 syntax on
 
 highlight Comment gui=italic "cterm=italic
 highlight ColorColumn ctermbg=7
+
 set hlsearch
 set autoindent
-
 "show vertical line
 set colorcolumn:80
-
 "show information
 set ruler
-
 "show relative line numbers
 set rnu
-
 "text encoding
 set encoding=utf-8
-
 " use LF line endings
 set fileformats=unix,dos
 set fileformat=unix
