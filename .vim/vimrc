@@ -20,7 +20,7 @@ filetype indent plugin on
 
 syntax on
 
-highlight Comment gui=italic
+highlight Comment gui=italic "cterm=italic
 set hlsearch
 set autoindent
 
@@ -36,7 +36,11 @@ set rnu
 "text encoding
 set encoding=utf-8
 
-" set tabs
+" use LF line endings
+set fileformats=unix,dos
+set fileformat=unix
+
+" set tabs, follows java convention
 set tabstop=8
 set shiftwidth=4
 set softtabstop=0
