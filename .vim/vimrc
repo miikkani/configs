@@ -21,6 +21,7 @@ filetype indent plugin on
 syntax on
 
 highlight Comment gui=italic "cterm=italic
+highlight ColorColumn ctermbg=7
 set hlsearch
 set autoindent
 
